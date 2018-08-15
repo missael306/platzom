@@ -1,0 +1,29 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor del idioma platzom, modulo de aprendizaje en el curso de platzi.com",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist", 
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missael306/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "js"
+  ],
+  "author": "Missael Armenta <missael306@gmail.com> (https://www.facebook.com/missael.armentaperalta)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
